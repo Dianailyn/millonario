@@ -1,2 +1,2 @@
 # millonario
-Entrega del trabajo KUEPA, se eligió el comodín cambio de pregunta 
+Entrega del trabajo KUEPA, se eligió el comodín 50%

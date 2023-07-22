@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+    font-family: 'Lobster', cursive;
+    color: pink;
+    font: size 1.2rem;
+    line-height: 1.6em;
+    margin: 0;
+    background: rgb(202, 48, 138);
+}
+.cabecera{
+    background: rgb(230, 121, 157);
+    color: pink;
+    padding: 2rem 0;
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+}
+.logo{
+    width: 100%;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+}
+.footer{
+    background: rgb(230, 121, 157);
+    padding: 4rem 0;
+    text-align: justify;
+    margin-top: 6rem;
+}
+.main{
+    display:flex;
+    flex-direction: row;
+}
+#options button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#preguntas{
+    background-color: rgb(192, 67, 119);
+}

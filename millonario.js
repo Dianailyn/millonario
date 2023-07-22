@@ -62,28 +62,4 @@ const questions = [
     `;
   }
   
-  function displayQuestion() {
-    const questionElement = document.getElementById("question");
-    const optionsElement = document.getElementById("options");
-    questionElement.textContent = questions[currentQuestion].question;
-    optionsElement.innerHTML = "";
-  
-    const allOptions = questions[currentQuestion].options;
-    const numOptionsToShow = Math.ceil(allOptions.length / 2); // Redondear hacia arriba para garantizar que siempre se muestren la mitad
-  
-    // Hacer una copia de las opciones para no modificar el array original
-    const optionsToShow = allOptions.slice();
-  
-    // Eliminar aleatoriamente la mitad de las opciones hasta que solo queden numOptionsToShow
-    while (optionsToShow.length > numOptionsToShow) {
-      const indexToRemove = Math.floor(Math.random() * optionsToShow.length);
-      optionsToShow.splice(indexToRemove, 1);
-    }
-  
-    optionsToShow.forEach(option => {
-      const button = document.createElement("button");
-      button.textContent = option;
-      button.onclick = checkAnswer;
-      optionsElement.appendChild(button);
-    });
-  }
+  displayQuestion();

@@ -9,6 +9,16 @@ const questions = [
       options: ["Marge", "Alice", "Lety", "Manuela"],
       correctAnswer: "Marge"
     },
+    {
+        question: "¿De donde es originario el perro Chihuahua?",
+        options: ["Alemania", "Europa", "Inglaterra", "México"],
+        correctAnswer: "México"
+      },
+      {
+        question: "¿Como se llama el hijo de Homero Simpson?",
+        options: ["Bimbo", "Bart", "Bolo", "Brandon"],
+        correctAnswer: "Bart"
+      },
   ];
   
   let currentQuestion = 0;
